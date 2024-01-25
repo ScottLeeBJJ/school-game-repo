@@ -1265,3 +1265,19 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.01.25-06.11.08:452][ 12]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
 [2024.01.25-06.11.08:459][ 12]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
 [2024.01.25-06.11.08:490][ 12]LogFileHelpers: InternalPromptForCheckoutAndSave took 418 ms (total: 1.02 sec)
+[2024.01.25-06.12.20:377][934]LogSlate: Took 0.039526 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2024.01.25-06.12.35:902][609]Cmd: DUPLICATE
+[2024.01.25-06.12.35:902][609]Cmd: ACTOR DUPLICATE
+[2024.01.25-06.13.07:748][ 41]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.25-06.13.18:731][557]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.25-06.13.18:828][557]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2024.01.25-06.13.18:834][557]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2024.01.25-06.13.18:840][557]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2024.01.25-06.13.18:842][557]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Maps/TopDownMap/9/FY/45JOQ38QR4K2P62IGCH99F
+[2024.01.25-06.13.18:843][557]LogSavePackage: Moving '../../../../../DevProjects/school-game-repo/Project2D/Saved/45JOQ38QR4K2P62IGCH99F798A467341ED98D1F61754B4E9B160BA.tmp' to '../../../../../DevProjects/school-game-repo/Project2D/Content/__ExternalActors__/TopDown/Maps/TopDownMap/9/FY/45JOQ38QR4K2P62IGCH99F.uasset'
+[2024.01.25-06.13.18:845][557]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Maps/TopDownMap/B/K3/STRHEC1COJG5VQREVFPHVL
+[2024.01.25-06.13.18:845][557]LogSavePackage: Moving '../../../../../DevProjects/school-game-repo/Project2D/Saved/STRHEC1COJG5VQREVFPHVLA5601B3B4F4B634B2BDC89BAA8FF5D52.tmp' to '../../../../../DevProjects/school-game-repo/Project2D/Content/__ExternalActors__/TopDown/Maps/TopDownMap/B/K3/STRHEC1COJG5VQREVFPHVL.uasset'
+[2024.01.25-06.13.18:883][557]LogFileHelpers: InternalPromptForCheckoutAndSave took 152 ms (total: 1.18 sec)
+[2024.01.25-06.13.18:910][557]AssetCheck: New page: Asset Save: multiple assets
+[2024.01.25-06.13.18:910][557]LogContentValidation: Display: Validating /Script/Engine.TextRenderActor /Game/TopDown/Maps/TopDownMap.TopDownMap:PersistentLevel.TextRenderActor_0
+[2024.01.25-06.13.18:910][557]LogContentValidation: Display: Validating /Script/Engine.TextRenderActor /Game/TopDown/Maps/TopDownMap.TopDownMap:PersistentLevel.TextRenderActor_UAID_84A93E0ADCB0C5D201_1198011591
