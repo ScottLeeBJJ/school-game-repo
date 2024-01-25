@@ -1225,3 +1225,339 @@ LogConfig: CVar [[framepro.ScopeMinTimeMicroseconds:10]] deferred - dummy variab
 [2024.01.25-06.54.32:574][  1]LogAssetRegistry: AssetRegistryGather time 12.7640s: AssetDataDiscovery 5.2157s, AssetDataGather 7.4729s, StoreResults 0.0754s.
 [2024.01.25-06.54.32:637][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000006 seconds (updated 0 objects)
 [2024.01.25-06.54.38:523][158]LogDerivedDataCache: C:/Users/scott/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.206 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 549 files in 923 folders with total size 3 MiB.
+[2024.01.25-06.55.02:145][458]LogSlate: Took 0.018365 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2024.01.25-06.55.24:251][932]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2024.01.25-06.55.24:335][932]LogContentBrowser: Creating deferred item: NewFolder
+[2024.01.25-06.55.24:409][933]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2024.01.25-06.55.28:380][ 87]LogContentBrowser: Attempting asset rename: NewFolder -> Levels
+[2024.01.25-06.55.28:483][ 87]LogContentBrowser: End creating deferred item NewFolder
+[2024.01.25-06.56.21:443][ 41]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2024.01.25-06.56.21:793][ 41]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.25-06.56.21:794][ 41]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2024.01.25-06.56.21:794][ 41]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.01.25-06.56.21:794][ 41]LogWorldPartition: UWorldPartition::Initialize : World = ThirdPersonMap, World Type = Inactive, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.01.25-06.56.21:794][ 41]LogContentBundle: [ThirdPersonMap(Standalone)] Creating new contrainer.
+[2024.01.25-06.56.21:794][ 41]LogWorldPartition: Display: WorldPartition initialize took 254 us (total: 1.17 sec)
+[2024.01.25-06.56.46:171][517]LogContentBrowser: Attempting asset rename: ThirdPersonMap -> Level1
+[2024.01.25-06.56.47:628][517]LogMetaData: Removing '/Game/Levels/Level1.SKEL_Level1_C' ref from Metadata '/Game/Levels/ThirdPersonMap.PackageMetaData'
+[2024.01.25-06.56.47:628][517]LogMetaData: Removing '/Game/Levels/Level1.Level1_C' ref from Metadata '/Game/Levels/ThirdPersonMap.PackageMetaData'
+[2024.01.25-06.56.47:861][517]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.25-06.56.47:997][517]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.25-06.56.48:084][517]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level1" FILE="../../../../../DevProjects/school-game-repo/Project3rdPersonMod2/Content/Levels/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.01.25-06.56.48:142][517]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2024.01.25-06.56.48:201][517]LogPackageLocalizationCache: Processed 46 localized package path(s) for 1 prioritized culture(s) in 0.005103 seconds
+[2024.01.25-06.56.48:450][517]LogSavePackage: Moving output files for package: /Game/Levels/Level1
+[2024.01.25-06.56.48:450][517]LogSavePackage: Moving '../../../../../DevProjects/school-game-repo/Project3rdPersonMod2/Saved/Level1AED0F68646D021A6D05481A740014DAB.tmp' to '../../../../../DevProjects/school-game-repo/Project3rdPersonMod2/Content/Levels/Level1.umap'
+[2024.01.25-06.56.48:642][517]Message dialog closed, result: Ok, title: Unable to Check Out From Revision Control!, text: The following assets could not be successfully checked out from revision control:
+/Game/__ExternalActors__/Levels/Level1/E/R2/89CTEQ8UTTVF5NGN8YZDUB
+/Game/__ExternalActors__/Levels/Level1/9/6B/S0BE260E98K6NIWUA3KX47
+/Game/__ExternalActors__/Levels/Level1/8/7R/M7PBK7K8HR90O8F1JB91E4
+/Game/__ExternalActors__/Levels/Level1/0/A6/GI6F3MLJQBA13K6TQ9MXMP
+/Game/__ExternalActors__/Levels/Level1/0/CB/RJA7NMC822P86FIEMKRYU8
+/Game/__ExternalActors__/Levels/Level1/E/Z3/2K06G54CXBLZ1R24P1NN5O
+/Game/__ExternalActors__/Levels/Level1/4/92/GU5D6ZL5AFT746BYF249Z8
+/Game/__ExternalActors__/Levels/Level1/D/TH/73EATTBZZWN89AMC78V1ZO
+/Game/__ExternalActors__/Levels/Level1/B/8J/DC66T22WCG7QGFH786RB00
+/Game/__ExternalActors__/Levels/Level1/7/JX/QXC0WZBYNIZXQCS39PAL6E
+/Game/__ExternalActors__/Levels/Level1/C/AP/7C6B7D03CAD73X2EEPD4T6
+/Game/__ExternalActors__/Levels/Level1/8/OR/SZMWATKCUHU5EQN4HEM4CW
+/Game/__ExternalActors__/Levels/Level1/2/PZ/FD4ZCTWZ8II60WGD5287IL
+/Game/__ExternalActors__/Levels/Level1/1/FC/QB89616XUZJ4XGD2QKNP8U
+/Game/__ExternalActors__/Levels/Level1/3/DJ/S2P9ON9HTI6YXSB0BAHRNB
+/Game/__ExternalActors__/Levels/Level1/C/NJ/2ZU9Q5P61OMV0QBY2WW3O4
+/Game/__ExternalActors__/Levels/Level1/8/M8/5498O9XRERGNO9E5XSMODE
+/Game/__ExternalActors__/Levels/Level1/D/YB/8MVW9YD5828S9TLOWMLM61
+/Game/__ExternalActors__/Levels/Level1/8/TJ/EVK957O2JOVB1HWEGXWHPE
+/Game/__ExternalActors__/Levels/Level1/D/GA/98MGYM0Z8GT6C30J3ND4HZ
+/Game/__ExternalActors__/Levels/Level1/8/SC/RH2JB486QU6A8AEXC9Z04T
+/Game/__ExternalActors__/Levels/Level1/5/Z2/CUBF9BXYMDE37HSQ6VR15L
+/Game/__ExternalActors__/Levels/Level1/8/1S/VYHPRWWMXILAYC0VQWPMPN
+/Game/__ExternalActors__/Levels/Level1/9/DE/2IRUIX43303YLO9KSLSED3
+/Game/__ExternalActors__/Levels/Level1/4/IE/5O5BT0JF8MRDV4Q2DTFSSP
+/Game/__ExternalActors__/Levels/Level1/7/J7/Y66QYIBBSNCM82SH3TURLN
+/Game/__ExternalActors__/Levels/Level1/0/RR/439QTGBJ6B31CQE3P2BFPN
+/Game/__ExternalActors__/Levels/Level1/8/XF/O5YH14FDD9F1GTHXL2WE5Q
+/Game/__ExternalActors__/Levels/Level1/3/3I/4JJOVH3LKB9ACEAOX8ZKN2
+/Game/__ExternalActors__/Levels/Level1/9/26/JZ08HD6LCHXIM9XFPVRC82
+/Game/__ExternalActors__/Levels/Level1/4/9S/29BKKCDKZI5E6ST1X24PUR
+/Game/__ExternalActors__/Levels/Level1/4/BZ/1DP2I7WG6UQ3ESNNU80VXW
+/Game/__ExternalActors__/Levels/Level1/4/10/VR0CGBG6S687GY0PI2J4V8
+/Game/__ExternalActors__/Levels/Level1/1/EB/Z3ZUP90OKB4CILUPGTL651
+/Game/__ExternalActors__/Levels/Level1/F/1P/P1YIIPWSAVNMYXCDFN4KXP
+/Game/__ExternalActors__/Levels/Level1/A/PT/916EW25UYOXKYZJ1ZLU1UD
+/Game/__ExternalActors__/Levels/Level1/A/P4/U2WYI7OKB8TC9FCE3V68MH
+/Game/__ExternalActors__/Levels/Level1/8/BS/C4WDDRAW2BMFGVWBQMSL2L
+/Game/__ExternalActors__/Levels/Level1/4/YG/LDHPXH8OFF3CMMZ2PQLRGW
+/Game/__ExternalActors__/Levels/Level1/D/GR/ZWRJE16T4TUF5EFM0MKI3K
+/Game/__ExternalObjects__/Levels/Level1/5/JX/51JAMCLXJX9SPNDSR5WZDR
+/Game/__ExternalObjects__/Levels/Level1/A/10/BBO0BMWDWSZLR8L6MVWRN0
+/Game/__ExternalObjects__/Levels/Level1/5/3J/GDDXW8BQG594DTU8OU6SBO
+/Game/__ExternalObjects__/Levels/Level1/1/Z5/AOR3QDQ27FJECFX2JHBKJ5
+/Game/__ExternalObjects__/Levels/Level1/0/Y5/M8BSI6V5IU0RFW0XV6XRR1
+/Game/__ExternalObjects__/Levels/Level1/2/M0/4EKYOT2GYBZ70RP8NBU058
+[2024.01.25-06.56.48:642][517]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.25-06.56.48:657][517]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/Level1/E/R2/89CTEQ8UTTVF5NGN8YZDUB
+[2024.01.25-06.56.48:657][517]LogSavePackage: Moving '../../../../../DevProjects/school-game-repo/Project3rdPersonMod2/Saved/89CTEQ8UTTVF5NGN8YZDUB034ABD8141A1C0FD52FE19BA88B99735.tmp' to '../../../../../DevProjects/school-game-repo/Project3rdPersonMod2/Content/__ExternalActors__/Levels/Level1/E/R2/89CTEQ8UTTVF5NGN8YZDUB.uasset'
+[2024.01.25-06.56.48:660][517]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/Level1/9/6B/S0BE260E98K6NIWUA3KX47
+[2024.01.25-06.56.48:660][517]LogSavePackage: Moving '../../../../../DevProjects/school-game-repo/Project3rdPersonMod2/Saved/S0BE260E98K6NIWUA3KX475374070645BE9D53BB82AE875923F99A.tmp' to '../../../../../DevProjects/school-game-repo/Project3rdPersonMod2/Content/__ExternalActors__/Levels/Level1/9/6B/S0BE260E98K6NIWUA3KX47.uasset'
+[2024.01.25-06.56.48:663][517]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/Level1/8/7R/M7PBK7K8HR90O8F1JB91E4
+[2024.01.25-06.56.48:663][517]LogSavePackage: Moving '../../../../../DevProjects/school-game-repo/Project3rdPersonMod2/Saved/M7PBK7K8HR90O8F1JB91E40F5C99AC4CFBFE0F702E4484C54A0376.tmp' to '../../../../../DevProjects/school-game-repo/Project3rdPersonMod2/Content/__ExternalActors__/Levels/Level1/8/7R/M7PBK7K8HR90O8F1JB91E4.uasset'
+[2024.01.25-06.56.48:677][517]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/Level1/0/A6/GI6F3MLJQBA13K6TQ9MXMP
+[2024.01.25-06.56.48:677][517]LogSavePackage: Moving '../../../../../DevProjects/school-game-repo/Project3rdPersonMod2/Saved/GI6F3MLJQBA13K6TQ9MXMP9831988748B7B3FB6BF7A595ECB57631.tmp' to '../../../../../DevProjects/school-game-repo/Project3rdPersonMod2/Content/__ExternalActors__/Levels/Level1/0/A6/GI6F3MLJQBA13K6TQ9MXMP.uasset'
+[2024.01.25-06.56.48:703][517]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/Level1/0/CB/RJA7NMC822P86FIEMKRYU8
+[2024.01.25-06.56.48:703][517]LogSavePackage: Moving '../../../../../DevProjects/school-game-repo/Project3rdPersonMod2/Saved/RJA7NMC822P86FIEMKRYU80E17AF7F4F899D28A1BC76AAC342767E.tmp' to '../../../../../DevProjects/school-game-repo/Project3rdPersonMod2/Content/__ExternalActors__/Levels/Level1/0/CB/RJA7NMC822P86FIEMKRYU8.uasset'
+[2024.01.25-06.56.48:703][517]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/Level1/E/Z3/2K06G54CXBLZ1R24P1NN5O
+[2024.01.25-06.56.48:705][517]LogSavePackage: Moving '../../../../../DevProjects/school-game-repo/Project3rdPersonMod2/Saved/2K06G54CXBLZ1R24P1NN5O40034F9944C734F2038C25A6BC6FA83C.tmp' to '../../../../../DevProjects/school-game-repo/Project3rdPersonMod2/Content/__ExternalActors__/Levels/Level1/E/Z3/2K06G54CXBLZ1R24P1NN5O.uasset'
+[2024.01.25-06.56.48:734][517]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/Level1/4/92/GU5D6ZL5AFT746BYF249Z8
+[2024.01.25-06.56.48:734][517]LogSavePackage: Moving '../../../../../DevProjects/school-game-repo/Project3rdPersonMod2/Saved/GU5D6ZL5AFT746BYF249Z81246A6414F061E8B8424269FD147F9AD.tmp' to '../../../../../DevProjects/school-game-repo/Project3rdPersonMod2/Content/__ExternalActors__/Levels/Level1/4/92/GU5D6ZL5AFT746BYF249Z8.uasset'
+[2024.01.25-06.56.48:736][517]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/Level1/D/TH/73EATTBZZWN89AMC78V1ZO
+[2024.01.25-06.56.48:736][517]LogSavePackage: Moving '../../../../../DevProjects/school-game-repo/Project3rdPersonMod2/Saved/73EATTBZZWN89AMC78V1ZO916EC34D40912FF177D4869256E62710.tmp' to '../../../../../DevProjects/school-game-repo/Project3rdPersonMod2/Content/__ExternalActors__/Levels/Level1/D/TH/73EATTBZZWN89AMC78V1ZO.uasset'
+[2024.01.25-06.56.48:739][517]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/Level1/B/8J/DC66T22WCG7QGFH786RB00
+[2024.01.25-06.56.48:739][517]LogSavePackage: Moving '../../../../../DevProjects/school-game-repo/Project3rdPersonMod2/Saved/DC66T22WCG7QGFH786RB00F5CB1F0B49F7FCE247B9B3B197B7D2B7.tmp' to '../../../../../DevProjects/school-game-repo/Project3rdPersonMod2/Content/__ExternalActors__/Levels/Level1/B/8J/DC66T22WCG7QGFH786RB00.uasset'
+[2024.01.25-06.56.48:744][517]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/Level1/7/JX/QXC0WZBYNIZXQCS39PAL6E
+[2024.01.25-06.56.48:744][517]LogSavePackage: Moving '../../../../../DevProjects/school-game-repo/Project3rdPersonMod2/Saved/QXC0WZBYNIZXQCS39PAL6E287FB95C4F17379A9C7DFD9342FF9729.tmp' to '../../../../../DevProjects/school-game-repo/Project3rdPersonMod2/Content/__ExternalActors__/Levels/Level1/7/JX/QXC0WZBYNIZXQCS39PAL6E.uasset'
+[2024.01.25-06.56.48:747][517]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/Level1/C/AP/7C6B7D03CAD73X2EEPD4T6
+[2024.01.25-06.56.48:747][517]LogSavePackage: Moving '../../../../../DevProjects/school-game-repo/Project3rdPersonMod2/Saved/7C6B7D03CAD73X2EEPD4T61532BC794F10A1132080E58CB88D2596.tmp' to '../../../../../DevProjects/school-game-repo/Project3rdPersonMod2/Content/__ExternalActors__/Levels/Level1/C/AP/7C6B7D03CAD73X2EEPD4T6.uasset'
+[2024.01.25-06.56.48:750][517]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/Level1/8/OR/SZMWATKCUHU5EQN4HEM4CW
+[2024.01.25-06.56.48:750][517]LogSavePackage: Moving '../../../../../DevProjects/school-game-repo/Project3rdPersonMod2/Saved/SZMWATKCUHU5EQN4HEM4CWAAE0E1834F2E3CC7BF2C9E8640498BEF.tmp' to '../../../../../DevProjects/school-game-repo/Project3rdPersonMod2/Content/__ExternalActors__/Levels/Level1/8/OR/SZMWATKCUHU5EQN4HEM4CW.uasset'
+[2024.01.25-06.56.48:753][517]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/Level1/2/PZ/FD4ZCTWZ8II60WGD5287IL
+[2024.01.25-06.56.48:753][517]LogSavePackage: Moving '../../../../../DevProjects/school-game-repo/Project3rdPersonMod2/Saved/FD4ZCTWZ8II60WGD5287IL5BB4F09F4EBEC28D1FBC5394644A70BC.tmp' to '../../../../../DevProjects/school-game-repo/Project3rdPersonMod2/Content/__ExternalActors__/Levels/Level1/2/PZ/FD4ZCTWZ8II60WGD5287IL.uasset'
+[2024.01.25-06.56.48:757][517]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/Level1/1/FC/QB89616XUZJ4XGD2QKNP8U
+[2024.01.25-06.56.48:757][517]LogSavePackage: Moving '../../../../../DevProjects/school-game-repo/Project3rdPersonMod2/Saved/QB89616XUZJ4XGD2QKNP8UE77FCF24472CF8D57E0C938991FD4A64.tmp' to '../../../../../DevProjects/school-game-repo/Project3rdPersonMod2/Content/__ExternalActors__/Levels/Level1/1/FC/QB89616XUZJ4XGD2QKNP8U.uasset'
+[2024.01.25-06.56.48:760][517]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/Level1/3/DJ/S2P9ON9HTI6YXSB0BAHRNB
+[2024.01.25-06.56.48:760][517]LogSavePackage: Moving '../../../../../DevProjects/school-game-repo/Project3rdPersonMod2/Saved/S2P9ON9HTI6YXSB0BAHRNB3838735B4C3D26160C870EA961DDAE1E.tmp' to '../../../../../DevProjects/school-game-repo/Project3rdPersonMod2/Content/__ExternalActors__/Levels/Level1/3/DJ/S2P9ON9HTI6YXSB0BAHRNB.uasset'
+[2024.01.25-06.56.48:763][517]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/Level1/C/NJ/2ZU9Q5P61OMV0QBY2WW3O4
+[2024.01.25-06.56.48:763][517]LogSavePackage: Moving '../../../../../DevProjects/school-game-repo/Project3rdPersonMod2/Saved/2ZU9Q5P61OMV0QBY2WW3O41538CE1640EC6186E69F808976FC2B28.tmp' to '../../../../../DevProjects/school-game-repo/Project3rdPersonMod2/Content/__ExternalActors__/Levels/Level1/C/NJ/2ZU9Q5P61OMV0QBY2WW3O4.uasset'
+[2024.01.25-06.56.48:766][517]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/Level1/8/M8/5498O9XRERGNO9E5XSMODE
+[2024.01.25-06.56.48:766][517]LogSavePackage: Moving '../../../../../DevProjects/school-game-repo/Project3rdPersonMod2/Saved/5498O9XRERGNO9E5XSMODE7D45693841A8D322FFA5C2A7FFBFE562.tmp' to '../../../../../DevProjects/school-game-repo/Project3rdPersonMod2/Content/__ExternalActors__/Levels/Level1/8/M8/5498O9XRERGNO9E5XSMODE.uasset'
+[2024.01.25-06.56.48:769][517]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/Level1/D/YB/8MVW9YD5828S9TLOWMLM61
+[2024.01.25-06.56.48:770][517]LogSavePackage: Moving '../../../../../DevProjects/school-game-repo/Project3rdPersonMod2/Saved/8MVW9YD5828S9TLOWMLM61DB9D842D463FB53A2AAC56B19905A836.tmp' to '../../../../../DevProjects/school-game-repo/Project3rdPersonMod2/Content/__ExternalActors__/Levels/Level1/D/YB/8MVW9YD5828S9TLOWMLM61.uasset'
+[2024.01.25-06.56.48:772][517]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/Level1/8/TJ/EVK957O2JOVB1HWEGXWHPE
+[2024.01.25-06.56.48:772][517]LogSavePackage: Moving '../../../../../DevProjects/school-game-repo/Project3rdPersonMod2/Saved/EVK957O2JOVB1HWEGXWHPE35EBD2444721283837B3E7B521B3FB28.tmp' to '../../../../../DevProjects/school-game-repo/Project3rdPersonMod2/Content/__ExternalActors__/Levels/Level1/8/TJ/EVK957O2JOVB1HWEGXWHPE.uasset'
+[2024.01.25-06.56.48:775][517]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/Level1/D/GA/98MGYM0Z8GT6C30J3ND4HZ
+[2024.01.25-06.56.48:775][517]LogSavePackage: Moving '../../../../../DevProjects/school-game-repo/Project3rdPersonMod2/Saved/98MGYM0Z8GT6C30J3ND4HZAF551BAC41A329A332B5AF8B7FBC4F85.tmp' to '../../../../../DevProjects/school-game-repo/Project3rdPersonMod2/Content/__ExternalActors__/Levels/Level1/D/GA/98MGYM0Z8GT6C30J3ND4HZ.uasset'
+[2024.01.25-06.56.48:794][517]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/Level1/8/SC/RH2JB486QU6A8AEXC9Z04T
+[2024.01.25-06.56.48:794][517]LogSavePackage: Moving '../../../../../DevProjects/school-game-repo/Project3rdPersonMod2/Saved/RH2JB486QU6A8AEXC9Z04T91A0C3F64A57C29219125BB8A07823DF.tmp' to '../../../../../DevProjects/school-game-repo/Project3rdPersonMod2/Content/__ExternalActors__/Levels/Level1/8/SC/RH2JB486QU6A8AEXC9Z04T.uasset'
+[2024.01.25-06.56.48:796][517]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/Level1/5/Z2/CUBF9BXYMDE37HSQ6VR15L
+[2024.01.25-06.56.48:796][517]LogSavePackage: Moving '../../../../../DevProjects/school-game-repo/Project3rdPersonMod2/Saved/CUBF9BXYMDE37HSQ6VR15LA7D8313B4CDF0DD50451F0B7D2F5F57E.tmp' to '../../../../../DevProjects/school-game-repo/Project3rdPersonMod2/Content/__ExternalActors__/Levels/Level1/5/Z2/CUBF9BXYMDE37HSQ6VR15L.uasset'
+[2024.01.25-06.56.48:799][517]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/Level1/8/1S/VYHPRWWMXILAYC0VQWPMPN
+[2024.01.25-06.56.48:799][517]LogSavePackage: Moving '../../../../../DevProjects/school-game-repo/Project3rdPersonMod2/Saved/VYHPRWWMXILAYC0VQWPMPNCDD7C574408E5DACA8F3F0A1D2AAD924.tmp' to '../../../../../DevProjects/school-game-repo/Project3rdPersonMod2/Content/__ExternalActors__/Levels/Level1/8/1S/VYHPRWWMXILAYC0VQWPMPN.uasset'
+[2024.01.25-06.56.48:803][517]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/Level1/9/DE/2IRUIX43303YLO9KSLSED3
+[2024.01.25-06.56.48:803][517]LogSavePackage: Moving '../../../../../DevProjects/school-game-repo/Project3rdPersonMod2/Saved/2IRUIX43303YLO9KSLSED33CFCEAB945E720B609AC07ADD899EDB6.tmp' to '../../../../../DevProjects/school-game-repo/Project3rdPersonMod2/Content/__ExternalActors__/Levels/Level1/9/DE/2IRUIX43303YLO9KSLSED3.uasset'
+[2024.01.25-06.56.48:806][517]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/Level1/4/IE/5O5BT0JF8MRDV4Q2DTFSSP
+[2024.01.25-06.56.48:806][517]LogSavePackage: Moving '../../../../../DevProjects/school-game-repo/Project3rdPersonMod2/Saved/5O5BT0JF8MRDV4Q2DTFSSP7105F2B2436D9B37D8577A9DA5048700.tmp' to '../../../../../DevProjects/school-game-repo/Project3rdPersonMod2/Content/__ExternalActors__/Levels/Level1/4/IE/5O5BT0JF8MRDV4Q2DTFSSP.uasset'
+[2024.01.25-06.56.48:809][517]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/Level1/7/J7/Y66QYIBBSNCM82SH3TURLN
+[2024.01.25-06.56.48:809][517]LogSavePackage: Moving '../../../../../DevProjects/school-game-repo/Project3rdPersonMod2/Saved/Y66QYIBBSNCM82SH3TURLN368304C049B6E4129BB42AA7E40C1551.tmp' to '../../../../../DevProjects/school-game-repo/Project3rdPersonMod2/Content/__ExternalActors__/Levels/Level1/7/J7/Y66QYIBBSNCM82SH3TURLN.uasset'
+[2024.01.25-06.56.48:813][517]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/Level1/0/RR/439QTGBJ6B31CQE3P2BFPN
+[2024.01.25-06.56.48:813][517]LogSavePackage: Moving '../../../../../DevProjects/school-game-repo/Project3rdPersonMod2/Saved/439QTGBJ6B31CQE3P2BFPNAB9FF7E144C01AC306541DB66E2C5D9E.tmp' to '../../../../../DevProjects/school-game-repo/Project3rdPersonMod2/Content/__ExternalActors__/Levels/Level1/0/RR/439QTGBJ6B31CQE3P2BFPN.uasset'
+[2024.01.25-06.56.48:815][517]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/Level1/8/XF/O5YH14FDD9F1GTHXL2WE5Q
+[2024.01.25-06.56.48:815][517]LogSavePackage: Moving '../../../../../DevProjects/school-game-repo/Project3rdPersonMod2/Saved/O5YH14FDD9F1GTHXL2WE5QD047E834445AB049DE32529DC3B14E32.tmp' to '../../../../../DevProjects/school-game-repo/Project3rdPersonMod2/Content/__ExternalActors__/Levels/Level1/8/XF/O5YH14FDD9F1GTHXL2WE5Q.uasset'
+[2024.01.25-06.56.48:867][517]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/Level1/3/3I/4JJOVH3LKB9ACEAOX8ZKN2
+[2024.01.25-06.56.48:867][517]LogSavePackage: Moving '../../../../../DevProjects/school-game-repo/Project3rdPersonMod2/Saved/4JJOVH3LKB9ACEAOX8ZKN2CCD045494B6F574C277BCBB820DA2875.tmp' to '../../../../../DevProjects/school-game-repo/Project3rdPersonMod2/Content/__ExternalActors__/Levels/Level1/3/3I/4JJOVH3LKB9ACEAOX8ZKN2.uasset'
+[2024.01.25-06.56.48:870][517]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/Level1/9/26/JZ08HD6LCHXIM9XFPVRC82
+[2024.01.25-06.56.48:870][517]LogSavePackage: Moving '../../../../../DevProjects/school-game-repo/Project3rdPersonMod2/Saved/JZ08HD6LCHXIM9XFPVRC82A07146AE418A94F0E2DF6C978E895A21.tmp' to '../../../../../DevProjects/school-game-repo/Project3rdPersonMod2/Content/__ExternalActors__/Levels/Level1/9/26/JZ08HD6LCHXIM9XFPVRC82.uasset'
+[2024.01.25-06.56.48:872][517]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/Level1/4/9S/29BKKCDKZI5E6ST1X24PUR
+[2024.01.25-06.56.48:872][517]LogSavePackage: Moving '../../../../../DevProjects/school-game-repo/Project3rdPersonMod2/Saved/29BKKCDKZI5E6ST1X24PUR5FCB6D2F4DEB9DF2E52964A218D40E9A.tmp' to '../../../../../DevProjects/school-game-repo/Project3rdPersonMod2/Content/__ExternalActors__/Levels/Level1/4/9S/29BKKCDKZI5E6ST1X24PUR.uasset'
+[2024.01.25-06.56.48:874][517]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/Level1/4/BZ/1DP2I7WG6UQ3ESNNU80VXW
+[2024.01.25-06.56.48:874][517]LogSavePackage: Moving '../../../../../DevProjects/school-game-repo/Project3rdPersonMod2/Saved/1DP2I7WG6UQ3ESNNU80VXWA4C3955C48F13A4F61E9B3896867085B.tmp' to '../../../../../DevProjects/school-game-repo/Project3rdPersonMod2/Content/__ExternalActors__/Levels/Level1/4/BZ/1DP2I7WG6UQ3ESNNU80VXW.uasset'
+[2024.01.25-06.56.48:877][517]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/Level1/4/10/VR0CGBG6S687GY0PI2J4V8
+[2024.01.25-06.56.48:877][517]LogSavePackage: Moving '../../../../../DevProjects/school-game-repo/Project3rdPersonMod2/Saved/VR0CGBG6S687GY0PI2J4V8E4824E2C4089E380C9E4EE93800F13DE.tmp' to '../../../../../DevProjects/school-game-repo/Project3rdPersonMod2/Content/__ExternalActors__/Levels/Level1/4/10/VR0CGBG6S687GY0PI2J4V8.uasset'
+[2024.01.25-06.56.48:880][517]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/Level1/1/EB/Z3ZUP90OKB4CILUPGTL651
+[2024.01.25-06.56.48:881][517]LogSavePackage: Moving '../../../../../DevProjects/school-game-repo/Project3rdPersonMod2/Saved/Z3ZUP90OKB4CILUPGTL6510F5A42F34838B513EEF6FEB99B31DF55.tmp' to '../../../../../DevProjects/school-game-repo/Project3rdPersonMod2/Content/__ExternalActors__/Levels/Level1/1/EB/Z3ZUP90OKB4CILUPGTL651.uasset'
+[2024.01.25-06.56.48:885][517]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/Level1/F/1P/P1YIIPWSAVNMYXCDFN4KXP
+[2024.01.25-06.56.48:885][517]LogSavePackage: Moving '../../../../../DevProjects/school-game-repo/Project3rdPersonMod2/Saved/P1YIIPWSAVNMYXCDFN4KXPDED74E594FEC368AD14E3F8B61E7A36F.tmp' to '../../../../../DevProjects/school-game-repo/Project3rdPersonMod2/Content/__ExternalActors__/Levels/Level1/F/1P/P1YIIPWSAVNMYXCDFN4KXP.uasset'
+[2024.01.25-06.56.48:888][517]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/Level1/A/PT/916EW25UYOXKYZJ1ZLU1UD
+[2024.01.25-06.56.48:888][517]LogSavePackage: Moving '../../../../../DevProjects/school-game-repo/Project3rdPersonMod2/Saved/916EW25UYOXKYZJ1ZLU1UD2DF6F588419BED4B0B452B9361FDE545.tmp' to '../../../../../DevProjects/school-game-repo/Project3rdPersonMod2/Content/__ExternalActors__/Levels/Level1/A/PT/916EW25UYOXKYZJ1ZLU1UD.uasset'
+[2024.01.25-06.56.48:907][517]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/Level1/A/P4/U2WYI7OKB8TC9FCE3V68MH
+[2024.01.25-06.56.48:908][517]LogSavePackage: Moving '../../../../../DevProjects/school-game-repo/Project3rdPersonMod2/Saved/U2WYI7OKB8TC9FCE3V68MH13278923434A593B79D13694E8B3FFBE.tmp' to '../../../../../DevProjects/school-game-repo/Project3rdPersonMod2/Content/__ExternalActors__/Levels/Level1/A/P4/U2WYI7OKB8TC9FCE3V68MH.uasset'
+[2024.01.25-06.56.48:910][517]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/Level1/8/BS/C4WDDRAW2BMFGVWBQMSL2L
+[2024.01.25-06.56.48:910][517]LogSavePackage: Moving '../../../../../DevProjects/school-game-repo/Project3rdPersonMod2/Saved/C4WDDRAW2BMFGVWBQMSL2LB3A866AA417B74AF84157F90D3C3C90C.tmp' to '../../../../../DevProjects/school-game-repo/Project3rdPersonMod2/Content/__ExternalActors__/Levels/Level1/8/BS/C4WDDRAW2BMFGVWBQMSL2L.uasset'
+[2024.01.25-06.56.48:913][517]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/Level1/4/YG/LDHPXH8OFF3CMMZ2PQLRGW
+[2024.01.25-06.56.48:913][517]LogSavePackage: Moving '../../../../../DevProjects/school-game-repo/Project3rdPersonMod2/Saved/LDHPXH8OFF3CMMZ2PQLRGW6BBEED83438D30BD571279B83D3410FF.tmp' to '../../../../../DevProjects/school-game-repo/Project3rdPersonMod2/Content/__ExternalActors__/Levels/Level1/4/YG/LDHPXH8OFF3CMMZ2PQLRGW.uasset'
+[2024.01.25-06.56.48:915][517]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Levels/Level1/D/GR/ZWRJE16T4TUF5EFM0MKI3K
+[2024.01.25-06.56.48:915][517]LogSavePackage: Moving '../../../../../DevProjects/school-game-repo/Project3rdPersonMod2/Saved/ZWRJE16T4TUF5EFM0MKI3K8EA574C44A7BC628A5457E8DDBF80A8D.tmp' to '../../../../../DevProjects/school-game-repo/Project3rdPersonMod2/Content/__ExternalActors__/Levels/Level1/D/GR/ZWRJE16T4TUF5EFM0MKI3K.uasset'
+[2024.01.25-06.56.48:947][517]LogSavePackage: Moving output files for package: /Game/__ExternalObjects__/Levels/Level1/5/JX/51JAMCLXJX9SPNDSR5WZDR
+[2024.01.25-06.56.48:947][517]LogSavePackage: Moving '../../../../../DevProjects/school-game-repo/Project3rdPersonMod2/Saved/51JAMCLXJX9SPNDSR5WZDR70D19FFA40CE6560B1500889C305AD8E.tmp' to '../../../../../DevProjects/school-game-repo/Project3rdPersonMod2/Content/__ExternalObjects__/Levels/Level1/5/JX/51JAMCLXJX9SPNDSR5WZDR.uasset'
+[2024.01.25-06.56.48:949][517]LogSavePackage: Moving output files for package: /Game/__ExternalObjects__/Levels/Level1/A/10/BBO0BMWDWSZLR8L6MVWRN0
+[2024.01.25-06.56.48:949][517]LogSavePackage: Moving '../../../../../DevProjects/school-game-repo/Project3rdPersonMod2/Saved/BBO0BMWDWSZLR8L6MVWRN0C5EFAEED4E5A6FA1F5499A858FA73FBF.tmp' to '../../../../../DevProjects/school-game-repo/Project3rdPersonMod2/Content/__ExternalObjects__/Levels/Level1/A/10/BBO0BMWDWSZLR8L6MVWRN0.uasset'
+[2024.01.25-06.56.48:951][517]LogSavePackage: Moving output files for package: /Game/__ExternalObjects__/Levels/Level1/5/3J/GDDXW8BQG594DTU8OU6SBO
+[2024.01.25-06.56.48:951][517]LogSavePackage: Moving '../../../../../DevProjects/school-game-repo/Project3rdPersonMod2/Saved/GDDXW8BQG594DTU8OU6SBO21118D90429B55F27B4CE7BF2F3477B0.tmp' to '../../../../../DevProjects/school-game-repo/Project3rdPersonMod2/Content/__ExternalObjects__/Levels/Level1/5/3J/GDDXW8BQG594DTU8OU6SBO.uasset'
+[2024.01.25-06.56.48:953][517]LogSavePackage: Moving output files for package: /Game/__ExternalObjects__/Levels/Level1/1/Z5/AOR3QDQ27FJECFX2JHBKJ5
+[2024.01.25-06.56.48:953][517]LogSavePackage: Moving '../../../../../DevProjects/school-game-repo/Project3rdPersonMod2/Saved/AOR3QDQ27FJECFX2JHBKJ5D3E51E0E4ABC13106244CEBC384A210C.tmp' to '../../../../../DevProjects/school-game-repo/Project3rdPersonMod2/Content/__ExternalObjects__/Levels/Level1/1/Z5/AOR3QDQ27FJECFX2JHBKJ5.uasset'
+[2024.01.25-06.56.48:956][517]LogSavePackage: Moving output files for package: /Game/__ExternalObjects__/Levels/Level1/0/Y5/M8BSI6V5IU0RFW0XV6XRR1
+[2024.01.25-06.56.48:956][517]LogSavePackage: Moving '../../../../../DevProjects/school-game-repo/Project3rdPersonMod2/Saved/M8BSI6V5IU0RFW0XV6XRR1BEC127184D06823D046965A3ABDDC333.tmp' to '../../../../../DevProjects/school-game-repo/Project3rdPersonMod2/Content/__ExternalObjects__/Levels/Level1/0/Y5/M8BSI6V5IU0RFW0XV6XRR1.uasset'
+[2024.01.25-06.56.48:959][517]LogSavePackage: Moving output files for package: /Game/__ExternalObjects__/Levels/Level1/2/M0/4EKYOT2GYBZ70RP8NBU058
+[2024.01.25-06.56.48:959][517]LogSavePackage: Moving '../../../../../DevProjects/school-game-repo/Project3rdPersonMod2/Saved/4EKYOT2GYBZ70RP8NBU05876C789584CD5D512A99C09890E3A96A4.tmp' to '../../../../../DevProjects/school-game-repo/Project3rdPersonMod2/Content/__ExternalObjects__/Levels/Level1/2/M0/4EKYOT2GYBZ70RP8NBU058.uasset'
+[2024.01.25-06.56.48:965][517]LogFileHelpers: InternalPromptForCheckoutAndSave took 319 ms
+[2024.01.25-06.56.48:966][517]Message dialog closed, result: Ok, title: Unable to Check Out From Revision Control!, text: The following assets could not be successfully checked out from revision control:
+/Game/__ExternalActors__/Levels/Level1/E/R2/89CTEQ8UTTVF5NGN8YZDUB
+/Game/__ExternalActors__/Levels/Level1/9/6B/S0BE260E98K6NIWUA3KX47
+/Game/__ExternalActors__/Levels/Level1/8/7R/M7PBK7K8HR90O8F1JB91E4
+/Game/__ExternalActors__/Levels/Level1/0/A6/GI6F3MLJQBA13K6TQ9MXMP
+/Game/__ExternalActors__/Levels/Level1/0/CB/RJA7NMC822P86FIEMKRYU8
+/Game/__ExternalActors__/Levels/Level1/E/Z3/2K06G54CXBLZ1R24P1NN5O
+/Game/__ExternalActors__/Levels/Level1/4/92/GU5D6ZL5AFT746BYF249Z8
+/Game/__ExternalActors__/Levels/Level1/D/TH/73EATTBZZWN89AMC78V1ZO
+/Game/__ExternalActors__/Levels/Level1/B/8J/DC66T22WCG7QGFH786RB00
+/Game/__ExternalActors__/Levels/Level1/7/JX/QXC0WZBYNIZXQCS39PAL6E
+/Game/__ExternalActors__/Levels/Level1/C/AP/7C6B7D03CAD73X2EEPD4T6
+/Game/__ExternalActors__/Levels/Level1/8/OR/SZMWATKCUHU5EQN4HEM4CW
+/Game/__ExternalActors__/Levels/Level1/2/PZ/FD4ZCTWZ8II60WGD5287IL
+/Game/__ExternalActors__/Levels/Level1/1/FC/QB89616XUZJ4XGD2QKNP8U
+/Game/__ExternalActors__/Levels/Level1/3/DJ/S2P9ON9HTI6YXSB0BAHRNB
+/Game/__ExternalActors__/Levels/Level1/C/NJ/2ZU9Q5P61OMV0QBY2WW3O4
+/Game/__ExternalActors__/Levels/Level1/8/M8/5498O9XRERGNO9E5XSMODE
+/Game/__ExternalActors__/Levels/Level1/D/YB/8MVW9YD5828S9TLOWMLM61
+/Game/__ExternalActors__/Levels/Level1/8/TJ/EVK957O2JOVB1HWEGXWHPE
+/Game/__ExternalActors__/Levels/Level1/D/GA/98MGYM0Z8GT6C30J3ND4HZ
+/Game/__ExternalActors__/Levels/Level1/8/SC/RH2JB486QU6A8AEXC9Z04T
+/Game/__ExternalActors__/Levels/Level1/5/Z2/CUBF9BXYMDE37HSQ6VR15L
+/Game/__ExternalActors__/Levels/Level1/8/1S/VYHPRWWMXILAYC0VQWPMPN
+/Game/__ExternalActors__/Levels/Level1/9/DE/2IRUIX43303YLO9KSLSED3
+/Game/__ExternalActors__/Levels/Level1/4/IE/5O5BT0JF8MRDV4Q2DTFSSP
+/Game/__ExternalActors__/Levels/Level1/7/J7/Y66QYIBBSNCM82SH3TURLN
+/Game/__ExternalActors__/Levels/Level1/0/RR/439QTGBJ6B31CQE3P2BFPN
+/Game/__ExternalActors__/Levels/Level1/8/XF/O5YH14FDD9F1GTHXL2WE5Q
+/Game/__ExternalActors__/Levels/Level1/3/3I/4JJOVH3LKB9ACEAOX8ZKN2
+/Game/__ExternalActors__/Levels/Level1/9/26/JZ08HD6LCHXIM9XFPVRC82
+/Game/__ExternalActors__/Levels/Level1/4/9S/29BKKCDKZI5E6ST1X24PUR
+/Game/__ExternalActors__/Levels/Level1/4/BZ/1DP2I7WG6UQ3ESNNU80VXW
+/Game/__ExternalActors__/Levels/Level1/4/10/VR0CGBG6S687GY0PI2J4V8
+/Game/__ExternalActors__/Levels/Level1/1/EB/Z3ZUP90OKB4CILUPGTL651
+/Game/__ExternalActors__/Levels/Level1/F/1P/P1YIIPWSAVNMYXCDFN4KXP
+/Game/__ExternalActors__/Levels/Level1/A/PT/916EW25UYOXKYZJ1ZLU1UD
+/Game/__ExternalActors__/Levels/Level1/A/P4/U2WYI7OKB8TC9FCE3V68MH
+/Game/__ExternalActors__/Levels/Level1/8/BS/C4WDDRAW2BMFGVWBQMSL2L
+/Game/__ExternalActors__/Levels/Level1/4/YG/LDHPXH8OFF3CMMZ2PQLRGW
+/Game/__ExternalActors__/Levels/Level1/D/GR/ZWRJE16T4TUF5EFM0MKI3K
+/Game/__ExternalObjects__/Levels/Level1/5/JX/51JAMCLXJX9SPNDSR5WZDR
+/Game/__ExternalObjects__/Levels/Level1/A/10/BBO0BMWDWSZLR8L6MVWRN0
+/Game/__ExternalObjects__/Levels/Level1/5/3J/GDDXW8BQG594DTU8OU6SBO
+/Game/__ExternalObjects__/Levels/Level1/1/Z5/AOR3QDQ27FJECFX2JHBKJ5
+/Game/__ExternalObjects__/Levels/Level1/0/Y5/M8BSI6V5IU0RFW0XV6XRR1
+/Game/__ExternalObjects__/Levels/Level1/2/M0/4EKYOT2GYBZ70RP8NBU058
+[2024.01.25-06.56.49:036][517]LogFileHelpers: Saving map 'Level1' took 1.091
+[2024.01.25-06.56.49:054][517]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.19 sec (total: 1.51 sec)
+[2024.01.25-06.56.49:144][517]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2024.01.25-06.56.49:150][517]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2024.01.25-06.56.49:155][517]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2024.01.25-06.56.49:167][517]AssetCheck: New page: Asset Save: multiple assets
+[2024.01.25-06.56.49:167][517]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/Level1.Level1
+[2024.01.25-06.56.49:167][517]LogContentValidation: Display: Validating /Script/Engine.WorldDataLayers /Game/Levels/Level1.Level1:PersistentLevel.WorldDataLayers
+[2024.01.25-06.56.49:167][517]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Levels/Level1.Level1:PersistentLevel.StaticMeshActor_18
+[2024.01.25-06.56.49:167][517]LogContentValidation: Display: Validating /Script/Engine.PostProcessVolume /Game/Levels/Level1.Level1:PersistentLevel.PostProcessVolume_0
+[2024.01.25-06.56.49:167][517]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Levels/Level1.Level1:PersistentLevel.StaticMeshActor_10
+[2024.01.25-06.56.49:167][517]LogContentValidation: Display: Validating /Script/Engine.TextRenderActor /Game/Levels/Level1.Level1:PersistentLevel.TextRenderActor_1
+[2024.01.25-06.56.49:167][517]LogContentValidation: Display: Validating /Script/Engine.VolumetricCloud /Game/Levels/Level1.Level1:PersistentLevel.VolumetricCloud_0
+[2024.01.25-06.56.49:167][517]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Levels/Level1.Level1:PersistentLevel.StaticMeshActor_24
+[2024.01.25-06.56.49:169][517]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Levels/Level1.Level1:PersistentLevel.StaticMeshActor_34
+[2024.01.25-06.56.49:169][517]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Levels/Level1.Level1:PersistentLevel.StaticMeshActor_15
+[2024.01.25-06.56.49:169][517]LogContentValidation: Display: Validating /Script/Engine.SkyAtmosphere /Game/Levels/Level1.Level1:PersistentLevel.SkyAtmosphere_0
+[2024.01.25-06.56.49:169][517]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Levels/Level1.Level1:PersistentLevel.StaticMeshActor_UAID_A4AE111137DC5EFB00_1110535423
+[2024.01.25-06.56.49:169][517]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Levels/Level1.Level1:PersistentLevel.StaticMeshActor_14
+[2024.01.25-06.56.49:169][517]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Levels/Level1.Level1:PersistentLevel.StaticMeshActor_11
+[2024.01.25-06.56.49:169][517]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Levels/Level1.Level1:PersistentLevel.StaticMeshActor_4
+[2024.01.25-06.56.49:169][517]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Levels/Level1.Level1:PersistentLevel.StaticMeshActor_19
+[2024.01.25-06.56.49:169][517]LogContentValidation: Display: Validating /Script/Engine.DirectionalLight /Game/Levels/Level1.Level1:PersistentLevel.DirectionalLight_0
+[2024.01.25-06.56.49:169][517]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Levels/Level1.Level1:PersistentLevel.StaticMeshActor_22
+[2024.01.25-06.56.49:169][517]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Levels/Level1.Level1:PersistentLevel.StaticMeshActor_33
+[2024.01.25-06.56.49:169][517]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Levels/Level1.Level1:PersistentLevel.StaticMeshActor_3
+[2024.01.25-06.56.49:169][517]LogContentValidation: Display: Validating /Script/Engine.ExponentialHeightFog /Game/Levels/Level1.Level1:PersistentLevel.ExponentialHeightFog_0
+[2024.01.25-06.56.49:169][517]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Levels/Level1.Level1:PersistentLevel.StaticMeshActor_35
+[2024.01.25-06.56.49:169][517]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Levels/Level1.Level1:PersistentLevel.StaticMeshActor_25
+[2024.01.25-06.56.49:169][517]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Levels/Level1.Level1:PersistentLevel.StaticMeshActor_1
+[2024.01.25-06.56.49:169][517]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Levels/Level1.Level1:PersistentLevel.StaticMeshActor_9
+[2024.01.25-06.56.49:169][517]LogContentValidation: Display: Validating /Script/Engine.SkyLight /Game/Levels/Level1.Level1:PersistentLevel.SkyLight_1
+[2024.01.25-06.56.49:169][517]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Levels/Level1.Level1:PersistentLevel.StaticMeshActor_12
+[2024.01.25-06.56.49:169][517]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Levels/Level1.Level1:PersistentLevel.StaticMeshActor_8
+[2024.01.25-06.56.49:169][517]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Levels/Level1.Level1:PersistentLevel.StaticMeshActor_23
+[2024.01.25-06.56.49:169][517]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Levels/Level1.Level1:PersistentLevel.StaticMeshActor_0
+[2024.01.25-06.56.49:169][517]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Levels/Level1.Level1:PersistentLevel.StaticMeshActor_16
+[2024.01.25-06.56.49:169][517]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Levels/Level1.Level1:PersistentLevel.StaticMeshActor_32
+[2024.01.25-06.56.49:169][517]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Levels/Level1.Level1:PersistentLevel.StaticMeshActor_13
+[2024.01.25-06.56.49:169][517]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Levels/Level1.Level1:PersistentLevel.StaticMeshActor_21
+[2024.01.25-06.56.49:169][517]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Levels/Level1.Level1:PersistentLevel.StaticMeshActor_5
+[2024.01.25-06.56.49:169][517]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Levels/Level1.Level1:PersistentLevel.StaticMeshActor_20
+[2024.01.25-06.56.49:169][517]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Levels/Level1.Level1:PersistentLevel.StaticMeshActor_6
+[2024.01.25-06.56.49:169][517]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Levels/Level1.Level1:PersistentLevel.StaticMeshActor_7
+[2024.01.25-06.56.49:169][517]LogContentValidation: Display: Validating /Script/Engine.PlayerStart /Game/Levels/Level1.Level1:PersistentLevel.PlayerStart_0
+[2024.01.25-06.56.49:169][517]LogContentValidation: Display: Validating /Script/Engine.StaticMeshActor /Game/Levels/Level1.Level1:PersistentLevel.StaticMeshActor_2
+[2024.01.25-06.56.49:169][517]LogContentValidation: Display: Validating /Script/Engine.WorldPartitionMiniMap /Game/Levels/Level1.Level1:PersistentLevel.WorldPartitionMiniMap_0
+[2024.01.25-06.56.49:169][517]LogContentValidation: Display: Validating /Script/Engine.ActorFolder /Game/Levels/Level1.Level1:PersistentLevel.ActorFolder_UID_963EC3EB-4002CCE9-759E2EBA-541A873A
+[2024.01.25-06.56.49:169][517]LogContentValidation: Display: Validating /Script/Engine.ActorFolder /Game/Levels/Level1.Level1:PersistentLevel.ActorFolder_UID_EBA23F82-48252949-750E4391-1A3A1CDD
+[2024.01.25-06.56.49:169][517]LogContentValidation: Display: Validating /Script/Engine.ActorFolder /Game/Levels/Level1.Level1:PersistentLevel.ActorFolder_UID_C73F09FC-4215536B-1DCE2A9E-0A830C70
+[2024.01.25-06.56.49:169][517]LogContentValidation: Display: Validating /Script/Engine.ActorFolder /Game/Levels/Level1.Level1:PersistentLevel.ActorFolder_UID_7D23E5AE-4C2A421F-86AF6986-D87E6D05
+[2024.01.25-06.56.49:169][517]LogContentValidation: Display: Validating /Script/Engine.ActorFolder /Game/Levels/Level1.Level1:PersistentLevel.ActorFolder_UID_7B7009C3-45D3D6DD-94D3429E-1D79C034
+[2024.01.25-06.56.49:169][517]LogContentValidation: Display: Validating /Script/Engine.ActorFolder /Game/Levels/Level1.Level1:PersistentLevel.ActorFolder_UID_D075E5BA-49330D3E-C2503D81-A7CF88D1
+[2024.01.25-06.59.04:049][978]Cmd: DELETE
+[2024.01.25-06.59.04:063][978]Cmd: ACTOR DELETE
+[2024.01.25-06.59.05:012][978]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.01.25-06.59.05:296][978]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.01.25-06.59.05:297][978]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.01.25-06.59.05:297][978]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.01.25-06.59.05:299][978]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.01.25-06.59.05:300][978]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.01.25-06.59.05:301][978]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.01.25-06.59.05:302][978]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.01.25-06.59.05:570][978]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2024.01.25-06.59.05:571][978]LogEditorActor: Deleted 8 Actors (0.999 secs)
+[2024.01.25-06.59.08:112][ 55]Cmd: DELETE
+[2024.01.25-06.59.08:112][ 55]Cmd: ACTOR DELETE
+[2024.01.25-06.59.10:529][130]Cmd: DELETE
+[2024.01.25-06.59.10:529][130]Cmd: ACTOR DELETE
+[2024.01.25-06.59.11:726][164]Cmd: DELETE
+[2024.01.25-06.59.11:727][164]Cmd: ACTOR DELETE
+[2024.01.25-06.59.12:942][198]Cmd: DELETE
+[2024.01.25-06.59.12:942][198]Cmd: ACTOR DELETE
+[2024.01.25-06.59.15:974][290]Cmd: DELETE
+[2024.01.25-06.59.15:975][290]Cmd: ACTOR DELETE
+[2024.01.25-06.59.26:567][631]Cmd: DELETE
+[2024.01.25-06.59.26:567][631]Cmd: ACTOR DELETE
+[2024.01.25-06.59.26:569][631]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.01.25-06.59.26:570][631]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.01.25-06.59.26:571][631]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.01.25-06.59.26:571][631]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.01.25-06.59.26:572][631]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.01.25-06.59.26:573][631]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.01.25-06.59.26:573][631]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.01.25-06.59.26:574][631]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.01.25-06.59.26:575][631]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.01.25-06.59.26:575][631]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.01.25-06.59.26:576][631]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.01.25-06.59.26:577][631]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.01.25-06.59.26:578][631]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.01.25-06.59.26:579][631]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.01.25-06.59.26:580][631]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.01.25-06.59.26:650][631]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.01.25-06.59.26:652][631]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.01.25-06.59.26:653][631]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.01.25-06.59.26:660][631]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2024.01.25-06.59.26:661][631]LogEditorActor: Deleted 18 Actors (0.093 secs)
+[2024.01.25-06.59.30:330][808]Cmd: DELETE
+[2024.01.25-06.59.30:330][808]Cmd: ACTOR DELETE
+[2024.01.25-06.59.30:330][808]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.01.25-06.59.30:330][808]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
+[2024.01.25-06.59.30:330][808]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2024.01.25-06.59.31:504][867]Cmd: DELETE
+[2024.01.25-06.59.31:504][867]Cmd: ACTOR DELETE
+[2024.01.25-06.59.31:506][867]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.01.25-06.59.31:514][867]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2024.01.25-06.59.31:515][867]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2024.01.25-06.59.32:443][913]Cmd: DELETE
+[2024.01.25-06.59.32:443][913]Cmd: ACTOR DELETE
+[2024.01.25-06.59.32:465][913]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.01.25-06.59.32:473][913]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2024.01.25-06.59.32:474][913]LogEditorActor: Deleted 1 Actors (0.031 secs)
+[2024.01.25-06.59.34:340][991]Cmd: DELETE
+[2024.01.25-06.59.34:340][991]Cmd: ACTOR DELETE
+[2024.01.25-06.59.34:341][991]LogEditorActor: Deleted Actor: TextRenderActor
+[2024.01.25-06.59.34:348][991]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2024.01.25-06.59.34:350][991]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2024.01.25-06.59.41:474][220]Cmd: TRANSACTION UNDO
+[2024.01.25-06.59.41:475][220]LogEditorTransaction: Undo Delete Elements
+[2024.01.25-06.59.44:094][283]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2024.01.25-06.59.44:114][283]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.25-06.59.44:411][283]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2024.01.25-06.59.44:421][283]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2024.01.25-06.59.44:427][283]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2024.01.25-06.59.44:444][283]LogFileHelpers: InternalPromptForCheckoutAndSave took 329 ms (total: 1.84 sec)
