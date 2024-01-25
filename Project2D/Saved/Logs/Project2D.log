@@ -1146,3 +1146,122 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.01.25-06.08.23:261][  0]MemoryProfiler: Initialize
 [2024.01.25-06.08.23:261][  0]MemoryProfiler: OnSessionChanged
 [2024.01.25-06.08.26:407][  0]LogFileCache: Scanning file cache for directory 'D:/DevProjects/school-game-repo/Project2D/Content/' took 0.02s
+[2024.01.25-06.08.34:142][  0]LogLevelSequenceEditor: LevelSequenceEditor subsystem initialized.
+[2024.01.25-06.08.35:292][  0]LogAssetRegistry: Display: Triggering cache save on discovery complete
+[2024.01.25-06.08.36:603][  0]LogAssetRegistry: Display: Asset registry cache written as 19.0 MiB to ../../../../../DevProjects/school-game-repo/Project2D/Intermediate/CachedAssetRegistry_*.bin
+[2024.01.25-06.08.37:402][  0]LogInit: Display: Engine is initialized. Leaving FEngineLoop::Init()
+[2024.01.25-06.08.37:403][  0]SourceControl: Revision control is disabled
+[2024.01.25-06.08.37:403][  0]LogUnrealEdMisc: Loading editor; pre map load, took 144.436
+[2024.01.25-06.08.37:405][  0]Cmd: MAP LOAD FILE="../../../../../DevProjects/school-game-repo/Project2D/Content/TopDown/Maps/TopDownMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2024.01.25-06.08.37:438][  0]LightingResults: New page: Lighting Build
+[2024.01.25-06.08.37:624][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2024.01.25-06.08.37:690][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.01.25-06.08.37:746][  0]MapCheck: New page: Map Check
+[2024.01.25-06.08.37:746][  0]LightingResults: New page: Lighting Build
+[2024.01.25-06.08.38:114][  0]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.01.25-06.08.38:356][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2024.01.25-06.08.49:342][  0]LogDerivedDataCache: C:/Users/scott/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:01.128 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 389 files in 707 folders with total size 3 MiB.
+[2024.01.25-06.08.51:945][  0]LogDeviceProfileManager: Going up to parent DeviceProfile []
+[2024.01.25-06.08.56:952][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'TopDownMap'.
+[2024.01.25-06.08.56:958][  0]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.25-06.08.56:964][  0]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.01.25-06.08.56:965][  0]LogAIModule: Creating AISystem for world TopDownMap
+[2024.01.25-06.08.57:162][  0]LogWorldPartition: ULevel::OnLevelLoaded(TopDownMap)(bIsOwningWorldGameWorld=0, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=1, InitializeForGame=0)
+[2024.01.25-06.08.57:174][  0]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.01.25-06.08.57:179][  0]LogWorldPartition: UWorldPartition::Initialize : World = TopDownMap, World Type = Editor, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 1, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.01.25-06.08.58:681][  0]LogContentBundle: [TopDownMap(Standalone)] Creating new contrainer.
+[2024.01.25-06.08.58:729][  0]LogWorldPartition: Display: WorldPartition initialize took 1.55 sec
+[2024.01.25-06.09.00:249][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.01.25-06.09.00:590][  0]LogNavigationDataBuild: Display:    RebuildAll building NavData:  Name Default class /Script/NavigationSystem.RecastNavMesh agent radius 35.0.
+[2024.01.25-06.09.00:651][  0]LogNavigationDataBuild: Display:    ANavigationData::RebuildAll load time: 0.06s
+[2024.01.25-06.09.01:241][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2024.01.25-06.09.01:335][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.01.25-06.09.01:397][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 55.202ms to complete.
+[2024.01.25-06.09.04:469][  0]LogUnrealEdMisc: Total Editor Startup Time, took 171.500
+[2024.01.25-06.09.04:469][  0]LogShaderCompilers: Display: ================================================
+[2024.01.25-06.09.04:469][  0]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.01.25-06.09.04:474][  0]LogShaderCompilers: Display: Total job queries 0, among them cache hits 0 (0.00%)
+[2024.01.25-06.09.04:474][  0]LogShaderCompilers: Display: Tracking 0 distinct input hashes that result in 0 distinct outputs (0.00%)
+[2024.01.25-06.09.04:474][  0]LogShaderCompilers: Display: RAM used: 240.00 B of 409.60 MiB budget. Usage: 0.00%
+[2024.01.25-06.09.04:474][  0]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.01.25-06.09.04:474][  0]LogShaderCompilers: Display: Shaders Compiled: 0
+[2024.01.25-06.09.04:474][  0]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0%)
+[2024.01.25-06.09.04:475][  0]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2024.01.25-06.09.04:475][  0]LogShaderCompilers: Display: ================================================
+[2024.01.25-06.09.07:253][  0]LogPakFile: Initializing PakPlatformFile
+[2024.01.25-06.09.07:311][  0]LogPakFile: Display: Mounted Pak file 'D:/Games/UE_5.3/FeaturePacks/StarterContent.upack', mount point: 'root:/'
+[2024.01.25-06.09.07:336][  0]LogPakFile: Initializing PakPlatformFile
+[2024.01.25-06.09.07:340][  0]LogPakFile: Display: Mounted Pak file 'D:/Games/UE_5.3/FeaturePacks/TP_FirstPerson.upack', mount point: 'root:/'
+[2024.01.25-06.09.07:348][  0]LogPakFile: Initializing PakPlatformFile
+[2024.01.25-06.09.07:352][  0]LogPakFile: Display: Mounted Pak file 'D:/Games/UE_5.3/FeaturePacks/TP_FirstPersonBP.upack', mount point: 'root:/'
+[2024.01.25-06.09.07:353][  0]LogPakFile: Initializing PakPlatformFile
+[2024.01.25-06.09.07:363][  0]LogPakFile: Display: Mounted Pak file 'D:/Games/UE_5.3/FeaturePacks/TP_HandheldARBP.upack', mount point: 'root:/'
+[2024.01.25-06.09.07:379][  0]LogPakFile: Initializing PakPlatformFile
+[2024.01.25-06.09.07:391][  0]LogPakFile: Display: Mounted Pak file 'D:/Games/UE_5.3/FeaturePacks/TP_ThirdPerson.upack', mount point: 'root:/'
+[2024.01.25-06.09.07:400][  0]LogPakFile: Initializing PakPlatformFile
+[2024.01.25-06.09.07:400][  0]LogPakFile: Display: Mounted Pak file 'D:/Games/UE_5.3/FeaturePacks/TP_ThirdPersonBP.upack', mount point: 'root:/'
+[2024.01.25-06.09.07:402][  0]LogPakFile: Initializing PakPlatformFile
+[2024.01.25-06.09.07:403][  0]LogPakFile: Display: Mounted Pak file 'D:/Games/UE_5.3/FeaturePacks/TP_TopDown.upack', mount point: 'root:/'
+[2024.01.25-06.09.07:405][  0]LogPakFile: Initializing PakPlatformFile
+[2024.01.25-06.09.07:406][  0]LogPakFile: Display: Mounted Pak file 'D:/Games/UE_5.3/FeaturePacks/TP_TopDownBP.upack', mount point: 'root:/'
+[2024.01.25-06.09.07:407][  0]LogPakFile: Initializing PakPlatformFile
+[2024.01.25-06.09.07:407][  0]LogPakFile: Display: Mounted Pak file 'D:/Games/UE_5.3/FeaturePacks/TP_VehicleAdvBP.upack', mount point: 'root:/'
+[2024.01.25-06.09.07:409][  0]LogPakFile: Initializing PakPlatformFile
+[2024.01.25-06.09.07:409][  0]LogPakFile: Display: Mounted Pak file 'D:/Games/UE_5.3/FeaturePacks/TP_VirtualRealityBP.upack', mount point: 'root:/'
+[2024.01.25-06.09.10:423][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.25-06.09.10:513][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.25-06.09.10:527][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.25-06.09.10:539][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.01.25-06.09.11:942][  0]LogSlate: Took 0.015333 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2024.01.25-06.09.12:117][  0]LogSlate: Took 0.014266 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2024.01.25-06.09.12:217][  0]LogSlate: Took 0.021643 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2024.01.25-06.09.12:368][  0]LogViewport: Scene viewport resized to 1523x845, mode Windowed.
+[2024.01.25-06.09.15:836][  0]LogSlate: Took 0.027252 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2024.01.25-06.09.19:024][  0]LogStall: Startup...
+[2024.01.25-06.09.19:025][  0]LogStall: Startup complete.
+[2024.01.25-06.09.19:269][  0]LogLoad: (Engine Initialization) Total time: 186.30 seconds
+[2024.01.25-06.09.19:269][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2024.01.25-06.09.21:631][  0]LogContentStreaming: Texture pool size now 800 MB
+[2024.01.25-06.09.24:030][  1]LogPython: registering <class 'ControlRigWorkflows.workflow_deformation_rig_preset.provider'>
+
+[2024.01.25-06.09.24:155][  1]Running Python start-up script 'D:/Games/UE_5.3/Engine/Plugins/Animation/ControlRig/Content/Python/init_unreal.py': 1.343511 secs
+[2024.01.25-06.09.26:209][  2]LogAssetRegistry: AssetRegistryGather time 7.2303s: AssetDataDiscovery 3.4564s, AssetDataGather 3.4576s, StoreResults 0.3162s.
+[2024.01.25-06.09.26:605][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.010164 seconds (updated 0 objects)
+[2024.01.25-06.09.31:458][  5]LogNavigationDataBuild: Display:    FRecastNavMeshGenerator::ProcessTileTasksAndGetUpdatedTiles build time: 30.80s
+[2024.01.25-06.09.34:011][  7]LogSlate: Window 'Content Browser' being destroyed
+[2024.01.25-06.09.34:047][  7]LogSlate: Window 'Content Browser' being destroyed
+[2024.01.25-06.10.11:689][109]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.25-06.10.11:977][109]LogPackageLocalizationCache: Processed 46 localized package path(s) for 1 prioritized culture(s) in 0.005369 seconds
+[2024.01.25-06.10.12:111][109]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Maps/TopDownMap/9/FY/45JOQ38QR4K2P62IGCH99F
+[2024.01.25-06.10.12:111][109]LogSavePackage: Moving '../../../../../DevProjects/school-game-repo/Project2D/Saved/45JOQ38QR4K2P62IGCH99F329EAE4245511DF566BDF5B634488FD7.tmp' to '../../../../../DevProjects/school-game-repo/Project2D/Content/__ExternalActors__/TopDown/Maps/TopDownMap/9/FY/45JOQ38QR4K2P62IGCH99F.uasset'
+[2024.01.25-06.10.12:306][109]LogFileHelpers: InternalPromptForCheckoutAndSave took 609 ms
+[2024.01.25-06.10.12:326][109]AssetCheck: New page: Asset Save: TextRenderActor_0
+[2024.01.25-06.10.12:327][109]LogContentValidation: Display: Validating /Script/Engine.TextRenderActor /Game/TopDown/Maps/TopDownMap.TopDownMap:PersistentLevel.TextRenderActor_0
+[2024.01.25-06.10.23:899][474]Cmd: DELETE
+[2024.01.25-06.10.23:914][474]Cmd: ACTOR DELETE
+[2024.01.25-06.10.24:490][474]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.01.25-06.10.24:619][474]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.01.25-06.10.24:620][474]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.01.25-06.10.24:621][474]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.01.25-06.10.24:621][474]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.01.25-06.10.24:685][474]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2024.01.25-06.10.24:741][474]LogEditorActor: Deleted 5 Actors (0.405 secs)
+[2024.01.25-06.10.29:178][621]Cmd: DELETE
+[2024.01.25-06.10.29:178][621]Cmd: ACTOR DELETE
+[2024.01.25-06.10.29:196][621]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.01.25-06.10.29:197][621]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.01.25-06.10.29:199][621]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.01.25-06.10.29:199][621]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.01.25-06.10.29:199][621]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.01.25-06.10.29:200][621]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.01.25-06.10.29:201][621]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.01.25-06.10.29:201][621]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.01.25-06.10.29:201][621]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.01.25-06.10.29:215][621]LogUObjectHash: Compacting FUObjectHashTables data took   0.32ms
+[2024.01.25-06.10.29:216][621]LogEditorActor: Deleted 9 Actors (0.037 secs)
+[2024.01.25-06.11.05:053][890]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.01.25-06.11.08:071][ 12]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.01.25-06.11.08:446][ 12]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
+[2024.01.25-06.11.08:452][ 12]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2024.01.25-06.11.08:459][ 12]LogUObjectHash: Compacting FUObjectHashTables data took   0.46ms
+[2024.01.25-06.11.08:490][ 12]LogFileHelpers: InternalPromptForCheckoutAndSave took 418 ms (total: 1.02 sec)
